@@ -1,0 +1,29 @@
+
+### **1. GitHub Projects**
+- **Description:** Various Datascience and Ai Projects
+- **Link**: [GitHub Projects](https://github.com/marianadeem755)
+---
+### **2. Amazon's TopBooks Reviews:TfidfVec&CountVec**
+- **Description:** Perform Data Cleaning, Data Wrangling and thorough Exploratory Data Analysis(EDA) using seaborn, matplotlib and plotly, Implement TFidf & CountVectorizer with Machine Learning Models(Logistic Regression, Naive Bayes, PassiveAgressive Classifier, GradientBoosting Classifier, KNeighborsClassifier, MultilayerPercepteron).
+- **Link**: [Amazon's TopBooks Reviews:TfidfVec&CountVec](https://www.kaggle.com/code/marianadeem755/amazon-s-topbooks-reviews-tfidfvec-countvec)
+---
+### **3. Tesla Stock Secrets:Forecasting with GRU|BiGRU**
+- **Description:** Perform thorough EDA of Time Series Data and implement GRU and BiGRU using Python, tensorflow, Deep Learning(GRU & BiGRU).
+- **Link**: [Tesla Stock Secrets:Forecasting with GRU|BiGRU](https://www.kaggle.com/code/marianadeem755/tesla-stock-secrets-forecasting-with-gru-bigru)
+---
+### **4. Gaming Evolution: Exploring vediogames (1980-2023)**
+- **Description:** Perform Data Cleaning, Data Wrangling and thorough Exploratory Data Analysis(EDA).
+- **Link**: [Gaming Evolution: Exploring vediogames (1980-2023)](https://www.kaggle.com/code/marianadeem755/gaming-evolution-exploring-vediogames-1980-2023)
+---
+### **5. OLX Scooty & Scooter|Web-Scrapping**
+- **Description:** Perform WebScrappig through Beautiful Soup & Requests Library.
+- **Link**: [OLX Scooty & Scooter|Web-Scrapping](https://www.kaggle.com/code/marianadeem755/olx-scooty-scooter-web-scrapping)
+---
+### **6. Revealing Toxic Mushrooms:Binary Prediction|PS4E8**
+- **Description:** Perform Data Cleaning/Data Wrangling, through EDA and predictive modeling with AutoML techniques and cross-validation for performance evaluation.
+- **Link**: [OLX Scooty & Scooter|Web-Scrapping](https://www.kaggle.com/code/marianadeem755/olx-scooty-scooter-web-scrapping)
+---
+### **7. Ebook for Kids**
+- **Description:** Create Ebook for Kids with A-Z Alphabets of Ai & Datascience
+- **Link**: [Ebook for Kids](https://codanics.com/dashboards/ebook_kids/maria_nadeem/)
+---
