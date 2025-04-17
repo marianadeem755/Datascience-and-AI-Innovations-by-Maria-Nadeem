@@ -10,9 +10,11 @@
 ### **3. Quick Start Streamlit App**
 - **Description:** When User gives prompt it provides response/answer to the user.
 - **Link**: [Quick Start Streamlit App](https://quick-start-app-with-maria-nadeem.streamlit.app/)
+---
 ### **4. Iris Species Classifier Streamlit App**
 - **Description:** By giving the input this App classifies the type of iris specie.
 - **Link**: [Iris Species Classifier Streamlit Appp](https://iris-prediction-app-maria-nadeem.streamlit.app/)
+---
 ### **5. Amazon's TopBooks Reviews:TfidfVec&CountVec**
 - **Description:** Perform Data Cleaning, Data Wrangling and thorough Exploratory Data Analysis(EDA) using seaborn, matplotlib and plotly, Implement TFidf & CountVectorizer with Machine Learning Models(Logistic Regression, Naive Bayes, PassiveAgressive Classifier, GradientBoosting Classifier, KNeighborsClassifier, MultilayerPercepteron).
 - **Link**: [Amazon's TopBooks Reviews:TfidfVec&CountVec](https://www.kaggle.com/code/marianadeem755/amazon-s-topbooks-reviews-tfidfvec-countvec)
