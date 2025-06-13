@@ -67,12 +67,13 @@
 - **Matriculation**  
   *The Educators, Jhang, Pakistan*  
   Marks: 1027/1100 (2015 - 2017)  
-
+---
 #### 📞 **Contact** 
-- **LinkedIn:** [<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/maria-nadeem-4994122aa/) 
-- **Email:** [<i class="fas fa-envelope"></i> Email](mailto:marianadeem755@gmail.com)
-- **Kaggle:** [<i class="fab fa-kaggle"></i> Kaggle](https://www.kaggle.com/marianadeem755)   
-- **GitHub:** [<i class="fab fa-github"></i> GitHub](https://github.com/marianadeem755)    
-
+- **LinkedIn:** [<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" style="vertical-align: middle;"/> LinkedIn](https://www.linkedin.com/in/maria-nadeem-4994122aa/)  
+- **Kaggle:** [<img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="Kaggle" width="20" style="vertical-align: middle;"/> Kaggle](https://www.kaggle.com/marianadeem755)  
+- **GitHub:** [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="20" style="vertical-align: middle;"/> GitHub](https://github.com/marianadeem755)  
+- **Email:** [<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="20" style="vertical-align: middle;"/> Email](mailto:marianadeem755@gmail.com)  
+- **Hugging Face:** [<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20" style="vertical-align: middle;"/> Hugging Face](https://huggingface.co/maria355)  
+- **Streamlit:** [<img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.svg" alt="Streamlit" width="100" style="vertical-align: middle;"/>](https://share.streamlit.io/user/marianadeem755)
 ---
 
