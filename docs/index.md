@@ -5,11 +5,13 @@
 * For exploring inspiring Data Science & AI projects, visit [**Kaggle**](https://www.kaggle.com/marianadeem755) <a href="https://www.kaggle.com/marianadeem755" target="_blank"><img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="Kaggle" width="18" style="vertical-align: middle;"/></a>   
 * Discover various projects and repositories at [**GitHub**](https://github.com/marianadeem755) <a href="https://github.com/marianadeem755" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="18" style="vertical-align: middle;"/></a>   
 * Explore AI Chatbots & RAG-powered apps on [**Hugging Face**](https://huggingface.co/maria355) <a href="https://huggingface.co/maria355" target="_blank"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20" style="vertical-align: middle;"/></a>    
+
 ---
 ### **My Social Media Links**
 
 - **LinkedIn:** [<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" style="vertical-align: middle;"/> LinkedIn](https://www.linkedin.com/in/maria-nadeem-4994122aa/)   
 - **Facebook:** [<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" style="vertical-align: middle;"/> Facebook](https://www.facebook.com/profile.php?id=61551878618506)    
+
 ---
 ### **My Featured Projects**
 
