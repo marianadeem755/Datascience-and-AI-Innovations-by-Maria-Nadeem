@@ -2,76 +2,79 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to customize the header
   function customizeHeader() {
     const header = document.querySelector(".md-header");
-    if (header) {
-      // Create a container for the header content
-      const headerContent = document.createElement("div");
-      headerContent.style.textAlign = "center";
+    if (!header) return;
 
-      // Create a row for the site name
-      const siteName = document.createElement("div");
-      siteName.textContent = "AI Innovations by Maria Nadeem";
-      siteName.style.fontSize = "24px";
-      siteName.style.fontWeight = "bold";
-      siteName.style.marginBottom = "5px";
+    // Prevent duplication if already customized
+    if (header.querySelector(".custom-header-content")) return;
 
-      // Add favicon image
-      const faviconImg = document.createElement("img");
-      faviconImg.src = "images/favicon.ico";
-      faviconImg.alt = "AI Innovations by Maria Nadeem";
-      faviconImg.className = "favicon";
-      faviconImg.style.maxWidth = "30px";
-      faviconImg.style.height = "30px";
-      faviconImg.style.marginBottom = "10px";
+    // Create a wrapper without deleting original header content
+    const headerContent = document.createElement("div");
+    headerContent.className = "custom-header-content";
+    headerContent.style.textAlign = "center";
+    headerContent.style.width = "100%";
 
-      // Create a container for the navigation links
-      const navLinksContainer = document.createElement("div");
-      navLinksContainer.style.marginTop = "10px";
-      navLinksContainer.style.textAlign = "center";
+    // Site name
+    const siteName = document.createElement("div");
+    siteName.textContent = "AI Innovations by Maria Nadeem";
+    siteName.style.fontSize = "22px";
+    siteName.style.fontWeight = "bold";
+    siteName.style.marginBottom = "5px";
 
-      // List of navigation links
-      const navLinks = [
-        { name: "Home", url: "index.md" },
-        { name: "About", url: "about.md" },
-        { name: "Projects", url: "projects.md" },
-        { name: "Skills", url: "skills.md" },
-        { name: "Certifications", url: "certifications.md" },
-        { name: "Resume", url: "resume.md" },
-        { name: "Achievements & Future Goals", url: "achievements_and_future_goals.md" }
-      ];
+    // Favicon
+    const faviconImg = document.createElement("img");
+    faviconImg.src = "images/favicon.ico";
+    faviconImg.alt = "Favicon";
+    faviconImg.style.maxWidth = "30px";
+    faviconImg.style.height = "30px";
+    faviconImg.style.marginBottom = "5px";
 
-      // Add navigation links
-      navLinks.forEach(link => {
-        const navItem = document.createElement("a");
-        navItem.href = link.url;
-        navItem.textContent = link.name;
-        navItem.style.margin = "0 15px";
+    // Navigation links (you must use correct final .html URLs)
+    const navLinksContainer = document.createElement("div");
+    navLinksContainer.style.marginTop = "5px";
+    navLinksContainer.style.textAlign = "center";
+
+    const navLinks = [
+      { name: "Home", url: "../index.html" },
+      { name: "About", url: "../about/" },
+      { name: "Projects", url: "../projects/" },
+      { name: "Skills", url: "../skills/" },
+      { name: "Certifications", url: "../certifications/" },
+      { name: "Resume", url: "../resume/" },
+      { name: "Achievements & Future Goals", url: "../achievements/" }
+    ];
+
+    navLinks.forEach(link => {
+      const navItem = document.createElement("a");
+      navItem.href = link.url;
+      navItem.textContent = link.name;
+      navItem.style.margin = "0 10px";
+      navItem.style.textDecoration = "none";
+      navItem.style.color = "#fff";
+      navItem.style.fontSize = "14px";
+      navItem.style.fontWeight = "normal";
+
+      navItem.addEventListener("mouseover", () => {
+        navItem.style.textDecoration = "underline";
+      });
+      navItem.addEventListener("mouseout", () => {
         navItem.style.textDecoration = "none";
-        navItem.style.color = "inherit";
-        navItem.style.fontWeight = "normal";
-        navItem.addEventListener("mouseover", () => {
-          navItem.style.textDecoration = "underline";
-        });
-        navItem.addEventListener("mouseout", () => {
-          navItem.style.textDecoration = "none";
-        });
-        navLinksContainer.appendChild(navItem);
       });
 
-      // Append site name, favicon, and nav links to the header content
-      headerContent.appendChild(siteName);
-      headerContent.appendChild(faviconImg);
-      headerContent.appendChild(navLinksContainer);
+      navLinksContainer.appendChild(navItem);
+    });
 
-      // Clear existing header content and add the new structured header
-      header.innerHTML = "";
-      header.appendChild(headerContent);
-    }
+    // Append new elements to wrapper
+    headerContent.appendChild(faviconImg);
+    headerContent.appendChild(siteName);
+    headerContent.appendChild(navLinksContainer);
+
+    // Append custom content without removing built-in content
+    header.appendChild(headerContent);
   }
 
   // Function to customize the footer
   function customizeFooter() {
-    const existingFooter = document.querySelector(".custom-footer");
-    if (existingFooter) return;
+    if (document.querySelector(".custom-footer")) return;
 
     const footer = document.createElement("div");
     footer.className = "custom-footer";
@@ -86,12 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     footer.appendChild(footerIcons);
     document.body.appendChild(footer);
-
-    const defaultFooter = document.querySelector(".md-footer");
-    if (defaultFooter) defaultFooter.remove();
   }
 
-  // Observe DOM changes to ensure customizations persist
+  // Observe DOM changes to reapply customization if needed
   const observer = new MutationObserver(() => {
     customizeHeader();
     customizeFooter();
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   observer.observe(document.body, { childList: true, subtree: true });
 
-  // Initial customization
+  // Initial run
   customizeHeader();
   customizeFooter();
 });

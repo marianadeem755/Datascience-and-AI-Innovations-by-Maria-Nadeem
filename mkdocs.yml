@@ -1,4 +1,4 @@
-site_name: AI Innovations by Maria Nadeem
+site_name: Maria Nadeem's AI Innovations
 site_description: A showcase of my data science and AI projects
 site_author: Maria Nadeem
 
@@ -9,7 +9,8 @@ nav:
   - Skills: skills.md
   - Certifications: certifications.md
   - Resume: resume.md
-  - Achievements: achievements.md
+  - Experience: experience.md
+  - Awards: achievements.md
 
 theme:
   name: cinder
@@ -25,26 +26,17 @@ extra_css:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js
   - javascripts/custom.js
+
 extra:
   favicon: favicon.ico
 
 markdown_extensions:
-  - toc:
-      permalink: true
-  - codehilite:
-      linenums: true
   - admonition
   - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.extra
+  - toc:
+      permalink: true
 
 plugins:
   - search
-  - awesome-pages
 
-# Disable the "Edit on GitHub" link in the footer
 edit_uri: null

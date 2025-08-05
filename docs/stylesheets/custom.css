@@ -3,31 +3,48 @@
   width: 100%;
   background-color: #0b0b0b; 
   color: #f8f8f8;
-  font-size: 1.0rem; 
+  font-size: 1rem; 
   font-weight: bold;
   text-align: center;
   padding: 10px 0;
   box-sizing: border-box;
   z-index: 9999;
 }
+
 .md-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px; /* Increase height of header */
+  height: 100px; /* Custom header height */
   padding: 0 20px;
   box-sizing: border-box;
   overflow: hidden;
   background-color: #1c1c1c;
-  margin-top: 0; 
-  border-top: 1px solid #333; /* subtle border to separate topbar and nav */
+  margin-top: 0;
+  border-top: 1px solid #333;
+  z-index: 10000;
+  position: sticky;
+  top: 0;
 }
+
+/* Anchor offset to prevent hiding under sticky header */
+:target::before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 /* ================= NAVIGATION ================= */
 .md-header-nav__title {
   display: none;
 }
 
-/* Navigation container */
 .md-header-nav {
   display: flex;
   align-items: center;
@@ -37,11 +54,17 @@
   overflow: hidden;
 }
 
-/* Navigation items */
 .md-header-nav__item {
   line-height: 1;
   margin: 0;
   flex-shrink: 0;
+}
+
+/* Scrollspy highlight */
+.md-header a.active-scroll {
+  color: #00aced;
+  font-weight: bold;
+  border-bottom: 2px solid #00aced;
 }
 
 /* ================= CONTENT ================= */

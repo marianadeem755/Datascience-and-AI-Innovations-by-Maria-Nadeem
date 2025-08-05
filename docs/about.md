@@ -1,4 +1,4 @@
-### **About Me** 👩‍💻
+## **About Me** 👩‍💻
 Hi, I'm **Maria Nadeem** a passionate Data Enthusiast with a strong desire to create AI driven insights that empower companies to make smarter decisions based on Data. I passionately work with data, uncovering patterns📈 and building models that solve real world problems.
 
 ### **My Journey** 🚀
